@@ -1,0 +1,28 @@
+{
+  "name": "chat-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "eslint": "eslint",
+    "test": "NODE_ENV=test mocha $(find test -name '*.js') --exit"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.2",
+    "morgan": "~1.9.0",
+    "shortid": "^2.2.14"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.3",
+    "should": "^13.2.3"
+  }
+}
